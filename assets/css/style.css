@@ -1,0 +1,174 @@
+@media (max-width: 600px)
+{
+  body{
+    font-size: 11px !important;
+  }
+  .justify-content-center{
+    display: table !important;
+    margin: auto;
+  }
+  #painelJogador1, #painelJogador2 {
+    width: 100% !important;
+  }
+  .list-group {
+    margin-top: 15em !important;
+    width: 78% !important;
+  }
+  #painelTotalPartida span{
+        position: initial !important;
+  }
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+body{
+  background-color: #0B486B;
+  color:#fff;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+table {width:550px; height:350px; border:1px solid black}
+table tr { background-color:red; font:bold 46px Verdana; color:white}
+table tr td {text-align:center; width:33.33%}
+table tr td:hover {cursor:pointer}
+input[type=button] {width:150px; height:50px; font-size:20px; font-weight:bold; margin-bottom:20px}
+fieldset {font-size:20; font-weight:bold; border:2px solid blue; width: 300px; margin-bottom:25px}
+.onmouseover-celula{}
+*/
+#game {
+  display: none;
+}
+.btn-group {
+    z-index: 1051;
+}
+.modalArea{
+  background-color: #FFF;
+  margin-top: 25%;
+  color: #000;
+  display: table;
+  margin: auto;
+  width: 70%;
+  margin-top: 5%;
+}
+.container-center-body{
+  position: absolute;
+  display: table;
+  background-color: #CFF09E;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100% !important;
+  padding: 0;
+  min-width: 280px;
+}
+.container-area-form{
+    max-width: 30em;
+    padding: 30px 15px 15px 15px;
+}
+.container-area-form input,button{
+  padding: 20px;
+}
+.container-area-form button{
+  color:#0B486B;
+  text-transform: uppercase;
+  font-weight:bold;
+  background-color: #FFF;
+  margin-left:3px;
+  border-color:#ccc;
+}
+.container-CurrentPlay{
+  /* background-color: #0B486B; */
+  text-align: center;
+  /* padding: 0px; */
+  /* max-width: 99%; */
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+  margin-top: 7px;
+  /* margin-bottom: 7px; */
+  font-size: 2em;
+}
+.container-CurrentPlay ul {
+  text-transform: capitalize;
+  font-weight: normal;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list-group{
+    margin-top: 10em;
+}
+.list-group ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.list-group ul li{
+  /* float:left; */
+  padding: 10px;
+  min-width: 10em;
+  border: 0;
+  min-height: 10em;
+  text-align: center;
+  color: #FFF;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: transparent;
+}
+.celColun_h{
+  border-left: 4px solid #cff09e !important;
+}
+.celColun_v{
+  border-bottom: 4px solid #cff09e !important;
+}
+
+.list-group ul li span{
+  font-size:5.5em;
+}
+#painelJogador1,#painelJogador2{
+  background-color: #3B8686;
+  width: 49%;
+  height: 1.5em;
+  margin: .5em;
+}
+#painelJogador1{
+    margin-left: -25px;
+    float:left;
+}
+#painelJogador1 span, #painelJogador2 span{
+  background-color: #0B486B;
+  padding: .4em;
+  margin-top: -0.5em;
+  min-width: 3em;
+}
+#painelJogador1 span{
+  float:right;
+  margin-right: -.7em;
+}
+#painelJogador2{
+    margin-right: -25px;
+    float: right;
+}
+#painelJogador2 span{
+  float:left;
+  margin-left: -.7em;
+}
+#painelTotalPartida span{
+  font-size: 0.5em;
+  background: #3B8686;
+  padding: .2em;
+  display: table;
+  width: 3em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  top: 1.9em;
+}
