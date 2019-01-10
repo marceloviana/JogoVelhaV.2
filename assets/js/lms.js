@@ -27,13 +27,6 @@ var objSuperDefine = ({  'cmi.suspend_data' : {
 // opção de contorno 1 - trasfere o método alert para console.log
 window.alert = window.console.log;
 var lmsStart = getAPIHandle();
-/* opção de contorno 2
-if( document.domain != "equipeconteudo.webaula.com.br" || location.protocol != "file:" ){
-    var lmsStart = getAPIHandle();
-    //var lmsStart = findAPI(window);
-    }
-*/
-//
 // FIM INICIALIZA LMS
 
 const searchApiScorm = setInterval( ()=>{
