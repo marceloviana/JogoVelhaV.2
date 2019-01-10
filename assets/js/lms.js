@@ -153,7 +153,7 @@ const lmsSaveData = (objSuper) => {
       if(lmsCommit_){
         console.log("Commit OK");
       }else{
-        console.log("Commit ERRO");
+        console.log(" Commit ERRO ");
       }
 */
 
